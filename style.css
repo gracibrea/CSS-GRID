@@ -1,0 +1,39 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.item {
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: 500;
+}
+.item:nth-child(even) {
+    background-color: coral;    
+}
+.button {
+    background-color: rgba(255, 127, 80, 0.376);
+    border-radius: 10px;
+    text-decoration: none;
+    color: coral;
+    padding: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.button:hover {
+    background-color: rgb(255, 127, 80);
+    color: white;
+}
+
+.link {
+    display: flex;
+    margin-top: 30px;
+}
+.space {
+    width: 10px;
+}

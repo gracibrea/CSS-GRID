@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID - repeat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-repeat.css">
+</head>
+<body>
+    <h1>CSS GRID</h1>
+    <h2>Repeat</h2>
+    <p>É um atributo para repetir.</p>
+    <p><em>grid-template-columns: (3, 150px);</em> vai criar três colunas com 150px de largura</p>
+    <img src="/images/exemplo3css.jpg" alt=""><br><br>
+    <img src="/images/exemplo3.jpg" alt="">
+    
+    
+    <p>É possível mesclar repeat, adicionando colunas fora dele, como neste caso,  <em> grid-template-columns: repeat(3, 1fr) 200px;</em>  que vai resultar em três colunas de largura igual e mais uma de 200px;.</p>    <img src="/images/exemplo4css.jpg" alt=""><br><br>
+    <img src="/images/exemplo4.jpg" alt="">
+
+    <p>É possível ainda adicionar mais uma coluna antes do repeat fazendo assim: <em>grid-template-columns: 50px repeat(3, 1fr) 200px </em></p>
+    <img src="/images/exemplo5css.jpg" alt=""><br><br>
+    <img src="/images/exemplo5.jpg" alt="">
+
+    <p>É possível também criar pares de colunas com o repeat: <em>grid-template-columns: repeat(2, 50px 300px); vai resultar em dois pares de coluna de 50px e 300px </em></p>
+    <img src="/images/exemplo6css.jpg" alt=""><br><br>
+    <img src="/images/exemplo6.jpg" alt="">
+
+    <p>É possível ainda trabalhar com mais de um repeat. Veja:</p>
+    <img src="/images/exemplo7css.jpg" alt=""><br><br>
+    <img src="/images/exemplo7.jpg" alt="">
+
+    <p>Assim criamos dois pares de colunas com medidas diferentes, utilizando 2 repeats.</p>
+
+    <p>Com <em>grid-template-columns: repeat(auto-fill, 150px); criamos quantas colunas for possível no espaço disponível, cada uma tendo 150px de largura. </em></p>
+    <p>Numa tela cheia ficou assim</p>
+    <img src="/images/exemplo8css.jpg" alt=""><br><br>
+    <img src="/images/exemplo8.jpg" alt="">
+    <p>Numa tela menor ficou assim</p>
+    <img src="images/exemplo8b.jpg" alt="">
+
+
+    <div class="link">
+        <a href="index.html" class="button">Home</a>
+        <div class="space"></div>
+        <a href="unidade_fr.html"  class="button">Veja sobre Unidade FR</a>
+    </div>
+
+    
+
+    <!--
+    <h3>Exemplo</h3>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+            <div class="item">10</div>
+        </div>
+     --> 
+        
+    
+    
+</body>
+</html>
