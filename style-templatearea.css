@@ -1,0 +1,18 @@
+.container {
+    background-color: lightgrey;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.item1 {
+    grid-area: item1;
+}
+.item2 {
+    grid-area: item2;
+}
+.item3 {
+    grid-area: item3;
+}
+.item4 {
+    grid-area: item4;
+}

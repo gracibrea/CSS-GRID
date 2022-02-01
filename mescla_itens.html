@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID - Mescla de ítens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mescla.css">
+</head>
+<body>
+    <h1>CSS GRID</h1>
+    <h2>Mescla de ítens</h2>
+    <p>A mescla de ítens é feita a partir dos elementos <em>grid-column-start</em>, <em>grid-column-end</em> que estabelece o ponto de início e fim da mesclagem, a partir de linhas verticais imaginárias.</p>
+
+    <p>Aqui temos o grid original composto por 4 colunas e 2 linhas.</p>
+    <p>Cada coluna tem 5 linhas verticais imaginárias uma antes do 1, outra antes do 2, outra antes do 3, outra antes do 4 e a última depois do 4.</p>
+
+    <p>Esse grid contém 3 linhas horizontais imaginárias. Uma antes do 1, do 2, do 3, do 4, outra antes do 5, do 6, do 7, do 8 e outra depois do 5, do 6, do 7 e do 8</p>
+
+    <img src="./images/exemplo28.jpg" alt="">
+    <img src="./images/exemplo28css.png" alt=""><br><br>    
+
+
+    <p>No caso do <em>.item1</em> do exemplo abaixo, a mesclagem vai da linha vertical 1 até a linha vertical 5</p>
+
+    <p>Já no item 3, a mescla de colunas vai da linha vertical 2 até a 4 e a mescla de linhas vai da linha horizontal 2 até a linha horiontal 5</p>
+
+    <p>No item 6, não há mescla de colunas, mas é importante determinar onde a coluna começa e onde termina. Neste caso vai da linha vertical 4 até a 5 e a mescla de linhas vai da linha horizontal 3 até a linha horiontal 5</p>
+    
+    <img src="./images/exemplo27.jpg" alt="">
+    <img src="./images/exemplo27css.png" alt=""><br><br>
+    
+
+    <div class="link">
+        <a href="index.html" class="button">Home</a>
+    </div>
+    <!--
+    <h3>Exemplo</h3>
+        <div class="container">
+            <div class="item item1">1</div>
+            <div class="item item2">2</div>
+            <div class="item item3">3</div>
+            <div class="item item4">4</div>
+            <div class="item item5">5</div>
+            <div class="item item6">6</div>
+            <div class="item item7">7</div>
+            <div class="item item8">8</div>
+        </div>  
+    -->
+</body>
+</html>

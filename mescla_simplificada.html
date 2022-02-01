@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID - Mescla de ítens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mescla-simples.css">
+</head>
+<body>
+    <h1>CSS GRID</h1>
+    <h2>Mescla simplificada</h2>
+    <p>Como foi possível obervar, a mescla de itens do grid é uma forma de localiza-los dentro do grid e de definir seu tamanho. Tudo vai depender das coordenadas repassadas.</p>
+
+    <p>Existe, porém, uma forma simplificada de dar a mesma coordenada para os ítens.</p>
+    <p>Vejamos o exemplo abaixo.</p>
+
+    <img src="./images/exemplo30.jpg" alt="">
+    <img src="./images/exemplo30css.png" alt=""><br><br>  
+
+    <p>Aqui as coordenadas foram passadas utilizando os elementos padrão: <em>grid-column-start:</em> e <em> grid-column-end:</em>, <em>grid-row-start:</em> e <em> grid-row-end:</em> </p>
+
+    <p>No exemplo abaixo o mesmo resultado foi obtido, utilizando a forma simplificada.</p>
+
+    <img src="./images/exemplo29.jpg" alt="">
+    <img src="./images/exemplo29css.png" alt=""><br><br> 
+
+    <p>O elemento <em>grid-column: 1 / 5;</em> é idêntico ao elemento <em>grid-column-start: 1;
+    grid-column-end: 5;</em>. Os valores correspondem às linhas verticais imaginárias 1 e 4.</p>
+    <p>O Elemento span, por sua vez, não se refere à linha, mas ao ítem.</p>
+    <p>Sendo assim o elemento <em>grid-column: 1 / 3;</em> corresponde ao elemento <em>grid-column: 1 / span 2; </em> e o elemento <em>grid-row: 2 / 4;</em> corresponde ao elemento <em>grid-row: 2 / span 3; </em>.  </p>
+    
+
+    <div class="link">
+        <a href="index.html" class="button">Home</a>
+    </div>
+    
+    <!--
+    <h3>Exemplo</h3>
+        <div class="container">
+            <div class="item item1">1</div>
+            <div class="item item2">2</div>
+            <div class="item item3">3</div>
+            <div class="item item4">4</div>
+            <div class="item item5">5</div>
+            <div class="item item6">6</div>
+            <div class="item item7">7</div>
+            <div class="item item8">8</div>
+        </div>  
+    -->
+        
+</body>
+</html>

@@ -1,0 +1,25 @@
+.container {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.item1 {
+    grid-column: 1 / 5;
+}
+
+.item2 {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 3;
+}
+.item4 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    border: solid 5px blue;    
+}
+.item8 {
+    grid-column: 1 / span 4;
+    border: solid 5px blue;  
+}
+

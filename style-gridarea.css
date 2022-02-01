@@ -1,0 +1,23 @@
+.container {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+/*
+1. grid-row-start
+2. grid-column-start
+3. grid-row-end
+4. grid-column-end
+*/
+.item1 {
+    /*grid-area: 1 / 1 / 3 / 3;*/
+    grid-area: 1 / 1 / span 2 / span 2;
+    background-color: blue;
+}
+.item5 {
+    /*grid-area: 3 / 2 / 5 / 4;*/
+    grid-area: span 2 / span 2;
+    background-color: blue;
+}
